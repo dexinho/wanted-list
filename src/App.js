@@ -1,4 +1,4 @@
-import { ListWantedUsers } from "./components/ListWantedUsers/ListWantedUsers";
+import { ListWantedUsers } from "./components/ListWantedUsers/js/ListWantedUsers";
 
 const App = () => {
   return (
