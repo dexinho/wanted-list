@@ -1,0 +1,34 @@
+.list-wanted-users-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.list-wanted-users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.list-wanted-users-details {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.list-wanted-users-details > * {
+  width: 100%;
+}
