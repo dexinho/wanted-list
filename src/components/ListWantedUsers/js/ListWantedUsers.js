@@ -10,8 +10,6 @@ export const ListWantedUsers = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalNumberOfPages, setTotalNumberOfPages] = useState(1);
 
-  // console.log("isLoading", isLoading);
-
   useEffect(() => {
     const handleFetchData = async () => {
       if (isLoading) return;
@@ -33,7 +31,6 @@ export const ListWantedUsers = () => {
       }
     };
 
-    // console.log("fetcha");
     handleFetchData();
   }, [currentPage]);
 
@@ -42,8 +39,6 @@ export const ListWantedUsers = () => {
   const handlePageChange = (pageNumber) => {
     setCurrentPage(Number(pageNumber));
   };
-
-  // console.log("do kraja");
 
   return (
     <div className="list-wanted-users-wrapper">
